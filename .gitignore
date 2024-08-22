@@ -1,0 +1,80 @@
+# Node.js specific files
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Optional npm cache directory
+.npm
+
+# TypeScript specific files
+dist/
+build/
+
+# Coverage directory used by testing tools
+coverage/
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Next.js build output
+.next/
+out/
+
+# Gatsby files
+.cache/
+public/
+
+# Serverless directories
+.serverless/
+
+# Docker
+docker-compose.override.yml
+
+# Yarn Berry (v2+) files
+.cache/yarn/
+.pnp.*
+.pnp/
+
+# Temporary files
+*.tmp
+*.swp
+
+# Ignore .env files but not .env.example (which may be used for reference)
+!.env.example
+
+# Ignore coverage output
+coverage/
+/dist

@@ -1,0 +1,10 @@
+Follow these steps to start the application
+
+step 1: navigate terminal to project folder
+step 2: run command "npm i" in terminal
+step 3: run command "npm start" in terminal
+
+Limitation:
+
+As I am not using any database or cache and storing data in memory so as soon as server is closed or restarted,
+all the data will be lost.
